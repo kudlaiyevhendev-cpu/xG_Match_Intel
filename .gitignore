@@ -1,1 +1,20 @@
+# Local Claude Code settings (per-user)
 .claude/settings.local.json
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Environment / secrets
+.env
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS
+.DS_Store
